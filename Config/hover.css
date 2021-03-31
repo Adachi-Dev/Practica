@@ -1,0 +1,9 @@
+/*header*/
+.nav:hover
+{
+    border: 1px #7d7777c4 solid;
+    background: #888888;
+}
+/* star color*/
+.star
+{color: snow;}

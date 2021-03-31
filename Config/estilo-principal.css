@@ -1,0 +1,396 @@
+@media only screen and (min-width: 600px) 
+{
+
+body{margin: 0px;background-color: rgba(255, 255, 255, 0.836);}
+#header
+{
+    background-color: gray;
+    display: flex;
+    text-align: center;
+
+}
+.nav
+{
+
+    position: relative;
+   
+    width: 10%/*120px*/;
+    margin: 1px;
+    height: min-content;
+    text-decoration: none;
+    color:white;
+    list-style: none;
+ }
+#box-principal
+{
+    background-color: #3a8bc0;
+    display: flex;
+}
+.box-txt
+{
+    width: 50%;
+    color: white;
+   
+}
+.box-2
+{
+    position: relative;
+    background-color: none;
+    text-align: center;
+    height: 15%;
+    margin-bottom: 0%;
+    padding-top: 10%;
+    padding-bottom: -1px;
+}
+/*p*/
+.box-2-p1
+{
+    width: 100%;
+    position: relative;
+    left: 10%;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+.box-3
+{
+    background-color: none;
+    text-align: center;
+    position: relative;
+    padding-top: 0%;
+    margin-top: 1px;
+    height: 20%;
+}
+.box-4
+{
+    background-color: lightskyblue;
+    text-align: center;
+    height: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+/* list - tools*/
+.tools
+{
+    width: 25%;
+    margin: 0.0625rem;/*1px*/
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;/*16px*/
+}
+.movie
+{
+    background-color: none;
+    width: 50%;
+    margin-left: 3%;
+    margin-right:3% ;
+    margin-top: 1%;
+  
+}
+/* contenido de proyecto - Actividad Reciente*/
+#page-2
+{
+    display: flex;
+}
+.main-1
+{
+    position: relative;
+   
+    width: 65%;
+    height: 80%;
+}
+.main-2
+{
+    /*position: relative;*/
+    width: 35%;
+    height: 80%;
+    background-color: none;
+   /* display: flex;*/
+}
+ .aside-right
+ {
+     background-color: none;
+     text-align: center;
+ }
+.t-p
+{
+    
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(67, 175, 202);
+}
+.aside-link
+{
+    color: black;
+    text-decoration: none;
+}
+/*aside-right - NEXT-BOX*/
+
+.aside-bg-right
+{
+    display: block;
+  
+}
+.aside-img-right-1
+{
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+    border:1px solid #333;
+}
+.aside-img-right-2
+{
+    width: 70%;
+    margin-top: 3px;
+    margin-left: 16px;
+    border-radius: 5px;
+    border:1px solid #333;
+}
+/*  main-1 -Proyecto*/
+.set-box
+{
+background-color:#f3f3f3;
+}
+.set-img{ display: flex;
+border-top: 1px solid black;
+border-bottom: 1px solid black;}
+.img-p1{
+    width: 33%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.img-box-list
+{width: 100%;
+height: 90%;
+border-radius: 5px;}
+.set-note
+{
+    position: relative;
+    margin-top: 10px;
+    background-color:none;
+}
+.note-2
+{
+    position: relative;
+    background-color: none;
+    display:flex;
+    left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/* en note-2*/
+.n-1
+{
+    width: 40%;
+   
+    display: flex;
+}
+.n-2
+{
+    width: 60%;
+   /* background-color: #f3f3f3;*/
+    background-color: #aad6e84a;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.comentario-box
+{
+    display: flex;
+    position: relative;
+    left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*dentro del n-2*/
+.n-1-img
+{
+width: 40%;
+}
+.avatar-profile
+{
+    width: 100%;
+    height: 50%;
+}
+.n-2-profile
+{
+    width: 60%;
+    display: block;
+}
+/* dt - div -text */
+.date
+{
+    /*border-bottom: 1px solid black;*/
+    position: relative;
+    width: min-content;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    left: 3px;
+}
+.date.text
+{
+    margin-top: 0px;
+    background-color: violet;
+    position: relative;
+}
+
+/*en n-2-profile*/
+.name
+{
+    width: 100%;
+    background-color:#00808052;
+    margin: 0px;
+}
+.name-range
+{width: 100%;background-color: none;}
+.name-status{width: 100%;background-color: teal;}
+.n-p-t
+{margin-top: 0px;
+margin-bottom: 1px;
+border-bottom: 1px dotted black;}
+
+
+/*--page-3---*/
+#autor{position: relative;}
+.mid
+{
+    width: 100%;
+  
+    display: inline-table;
+}
+.note-autor
+{
+    height: 25%;
+   
+}
+.note-autor h4{border-bottom: 1px solid black;}
+.note-autor p{text-align: center; margin-top:1%;}
+.post-autor
+{
+    height: 45%;
+  
+    text-align: center;
+  
+}
+
+
+
+
+
+.review/* Padre*/
+{
+    width: 40%;
+    background-color: tomato;
+    display: inline-table;
+}
+.review-item/* hijo*/
+{
+    display: flex;
+    height: 50%;
+}
+.item-review/* contenido-primario*/
+{
+    width: 50%;
+    height: 50%;
+}
+.texto-review /* titulo de sub pagina*/
+{
+  width: 50%;
+  height: 50%;
+}
+.img-review/*imagen a la que refiere*/
+{
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---foooter-----*/
+.footer
+{
+    background-color: black;
+}
+
+.footer-nav
+{
+    display: flex;
+    background-color: black;
+    margin-bottom: 0px;
+}
+.footer-a{width: 33%; text-align: center; }
+
+.footer-p
+{
+    color: white;
+    text-decoration: none;
+}
+.footer-end
+{
+background-color: black;
+color:white;
+}
+.footer-p-end
+{
+    position: relative;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+  }
+
+
+
+  /*
+  */
+
+
+
+
+    /*
+    <div class="review" href="#">
+            
+         <div class="review-item" href="#">
+             <div class="item-review"><img class="img-review" src="Config/img/y5x81q9m5h751.jpg"></div>
+             <div class="texto-review"><h6> The new Game</h6><a>Reseña de Black Rock shooter</a></div>
+         </div>
+         <div class="review-item" href="#">
+            <div class="item-review"><img class="img-review" src="Config/img/y5x81q9m5h751.jpg"></div>
+            <div><h6> The new Game</h6><a>Reseña de Black Rock shooter</a></div>
+        </div>
+        <div class="review-item" href="#">
+            <div class="item-review"><img class="img-review" src="Config/img/y5x81q9m5h751.jpg"></div>
+            <div><h6> The new Game</h6><a>Reseña de Black Rock shooter</a></div>
+        </div>
+        <div class="review-item" href="#">
+            <div class="item-review"><img class="img-review" src="Config/img/y5x81q9m5h751.jpg"></div>
+            <div><h6> The new Game</h6><a>Reseña de Black Rock shooter</a></div>
+        </div>
+      
+                
+        </div>
+    */
